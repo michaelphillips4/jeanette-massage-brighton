@@ -31,38 +31,38 @@ export default function Index() {
 
           <ul>
             <li>
-              <Link to="thai-yoga-massage" className="mainLink">
+              <Link to="thai-yoga-massage" className="link-dark">
                 thai yoga massage
               </Link>
             </li>
             <li>
               <Link
-                to="deep-tissue-and-sports-massage.html"
-                className="mainLink"
+                to="deep-tissue-and-sports-massage"
+                className="link-dark"
               >
                 deep tissue/sports massage
               </Link>
             </li>
             <li>
-              <Link to="pregnancy-massage" className="mainLink">
+              <Link to="pregnancy-massage" className="link-dark">
                 pregnancy - thai &amp; table massage
               </Link>
             </li>
             <li>
-              <Link to="chair-massage" className="mainLink">
+              <Link to="chair-massage" className="link-dark">
                 chair massage
               </Link>
             </li>
             <li>
               <a
-                href="Deep-Tissue_And_Sports_Massage.html"
-                className="mainLink"
+                href="deep-tissue-and-sports-massage"
+                className="link-dark"
               >
                 therapeutic/swedish massage
               </a>
             </li>
             <li>
-              <a href="Couples_Massage.html" className="mainLink">
+              <a href="couples-massage" className="link-dark">
                 couples massage
               </a>
             </li>
@@ -85,7 +85,7 @@ export default function Index() {
             preferable.
             <br />
             jeanette is available for appointments at venues in both brighton
-            and hove see <a href="Contact.html">contact page</a> for details.
+            and hove see <Link to="contact" className="link-dark">contact page</Link> for details.
             you can contact jeanette on:07932-568566 or at
             jenmahoney13@hotmail.com
           </p>

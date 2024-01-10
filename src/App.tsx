@@ -38,11 +38,11 @@ function App() {
 
 function Layout() {
   return (
-    <div>
+    <div >
       <Nav />
       <Heading />
 
-      <div className="container-fluid">
+      <div className="container-fluid bg-white ">
         <Outlet />
       </div>
       <Footer />
