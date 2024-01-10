@@ -1,10 +1,10 @@
 export default function CouplesMassage() {
   return (
-    <>
+    <div className="container">
       <h2 className="text-center display-5 pb-2">Couples Massage</h2>
 
       <img
-        src="Pictures/couples_3.jpg"
+        src="Pictures/Couples/couples_3.jpg"
         className="float-end shadow-lg p-3 m-5 bg-body-tertiary rounded"
         title="jeanette and friend giving a couples massage"
         alt="jeanette and friend giving a couples massage"
@@ -45,6 +45,6 @@ export default function CouplesMassage() {
           </p>
         </li>
       </ul>
-    </>
+    </div>
   );
 }

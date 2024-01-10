@@ -42,7 +42,7 @@ function Layout() {
       <Nav />
       <Heading />
 
-      <div className="container">
+      <div className="container-fluid">
         <Outlet />
       </div>
       <Footer />

@@ -1,4 +1,110 @@
-export default function Index() {
-   return( <h3>Index</h3>)
-}
+import { Link } from "react-router-dom";
 
+export default function Index() {
+  return (
+    <>
+      <div className="row">
+        <div className="col-md-3 text-center">
+          <img
+            id="jeanetteLeft"
+            src="Pictures/jeanette_index.jpg"
+            className="img-fluid rounded"
+            title="jeanette mahoney massage therapist"
+            alt="jeanette mahoney massage therapist"
+          />
+        </div>
+
+        <div className="col-md-6">
+          <h2 className="text-center display-5 pb-2">
+            Jeanette Mahoney massage in Brighton and Hove
+          </h2>
+
+          <p>
+            jeanette mahoney is an experienced massage therapist working in
+            brighton and hove. jeanette has been practising massage since 2001
+            &amp; truly believes there is a particular style of massage which is
+            effective and suitable for everyone. she now specializes in the
+            following therapies
+          </p>
+
+          <br />
+
+          <ul>
+            <li>
+              <Link to="thai-yoga-massage" className="mainLink">
+                thai yoga massage
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="deep-tissue-and-sports-massage.html"
+                className="mainLink"
+              >
+                deep tissue/sports massage
+              </Link>
+            </li>
+            <li>
+              <Link to="pregnancy-massage" className="mainLink">
+                pregnancy - thai &amp; table massage
+              </Link>
+            </li>
+            <li>
+              <Link to="chair-massage" className="mainLink">
+                chair massage
+              </Link>
+            </li>
+            <li>
+              <a
+                href="Deep-Tissue_And_Sports_Massage.html"
+                className="mainLink"
+              >
+                therapeutic/swedish massage
+              </a>
+            </li>
+            <li>
+              <a href="Couples_Massage.html" className="mainLink">
+                couples massage
+              </a>
+            </li>
+            <li>
+              <b>hopi ear candles</b>
+            </li>
+          </ul>
+
+          <br />
+
+          <p>
+            jeanette adapts her treatments to cater for individual needs... if a
+            client desires a relaxing, nurturing treatment then a gentle swedish
+            massage would be given...alternatively a deep-tissue/sports
+            treatment would be more suitable for those requiring a more intense
+            treatment... if a client feels they want to be stretched and
+            re-energized thai yoga massage may be more appropriate... or for a
+            shorter 30 minute treatment during the working day, focussing on the
+            upper body only, through clothing, a chair massage may be
+            preferable.
+            <br />
+            jeanette is available for appointments at venues in both brighton
+            and hove see <a href="Contact.html">contact page</a> for details.
+            you can contact jeanette on:07932-568566 or at
+            jenmahoney13@hotmail.com
+          </p>
+        </div>
+
+        <div className="col-md-3 text-center">
+          <img
+            src="Pictures/flowershome.jpg"
+            id="jeanetteRight"
+            className="rounded img-fluid"
+            title="flowers"
+            alt="jeanette mahoney massage therapist"
+          />
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+    </>
+  );
+}
