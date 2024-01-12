@@ -16,12 +16,12 @@ export default function Index() {
 
         <div className="col-md-6">
           <h2 className="text-center display-5 pb-2">
-            Jeanette Mahoney massage in Brighton and Hove
+            Jeanette Mahoney Massage in Brighton and Hove
           </h2>
 
           <p>
-            jeanette mahoney is an experienced massage therapist working in
-            brighton and hove. jeanette has been practising massage since 2001
+            Jeanette Mahoney is an experienced massage therapist working in
+            brighton and hove. Jeanette has been practising massage since 2001
             &amp; truly believes there is a particular style of massage which is
             effective and suitable for everyone. she now specializes in the
             following therapies
@@ -32,7 +32,7 @@ export default function Index() {
           <ul>
             <li>
               <Link to="thai-yoga-massage" className="link-dark">
-                thai yoga massage
+                Thai yoga massage
               </Link>
             </li>
             <li>
@@ -40,17 +40,17 @@ export default function Index() {
                 to="deep-tissue-and-sports-massage"
                 className="link-dark"
               >
-                deep tissue/sports massage
+                Deep tissue/Sports massage
               </Link>
             </li>
             <li>
               <Link to="pregnancy-massage" className="link-dark">
-                pregnancy - thai &amp; table massage
+                Pregnancy - Thai &amp; Table massage
               </Link>
             </li>
             <li>
               <Link to="chair-massage" className="link-dark">
-                chair massage
+                Chair massage
               </Link>
             </li>
             <li>
@@ -58,23 +58,20 @@ export default function Index() {
                 href="deep-tissue-and-sports-massage"
                 className="link-dark"
               >
-                therapeutic/swedish massage
+                Therapeutic/Swedish massage
               </a>
             </li>
             <li>
               <a href="couples-massage" className="link-dark">
-                couples massage
+                Couples massage
               </a>
-            </li>
-            <li>
-              <b>hopi ear candles</b>
             </li>
           </ul>
 
           <br />
 
           <p>
-            jeanette adapts her treatments to cater for individual needs... if a
+            Jeanette adapts her treatments to cater for individual needs... if a
             client desires a relaxing, nurturing treatment then a gentle swedish
             massage would be given...alternatively a deep-tissue/sports
             treatment would be more suitable for those requiring a more intense
@@ -84,8 +81,8 @@ export default function Index() {
             upper body only, through clothing, a chair massage may be
             preferable.
             <br />
-            jeanette is available for appointments at venues in both brighton
-            and hove see <Link to="contact" className="link-dark">contact page</Link> for details.
+            Jeanette is available for appointments at venues in both Brighton
+            and Hove see <Link to="contact" className="link-dark">contact page</Link> for details.
             you can contact jeanette on:07932-568566 or at
             jenmahoney13@hotmail.com
           </p>

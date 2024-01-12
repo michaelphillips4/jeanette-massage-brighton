@@ -13,7 +13,6 @@ import Contact from "./Pages/Contact";
 import Footer from "./Footer";
 import "./App.css";
 
-
 function App() {
   return (
     <Routes>
@@ -23,13 +22,13 @@ function App() {
           path="deep-tissue-and-sports-massage"
           element={<DeepTissueAndSportsMassage />}
         />
-         <Route path="thai-yoga-massage" element={<ThaiYogaMassage />} />
-         <Route path="pregnancy-massage" element={<PregnancyMassage />} />
-         <Route path="chair-massage" element={<ChairMassage />} />
-         <Route path="couples-massage" element={<CouplesMassage />} />
-         <Route path="about" element={<About />} />
-         <Route path="booking" element={<Booking />} />
-         <Route path="contact" element={<Contact />} />
+        <Route path="thai-yoga-massage" element={<ThaiYogaMassage />} />
+        <Route path="pregnancy-massage" element={<PregnancyMassage />} />
+        <Route path="chair-massage" element={<ChairMassage />} />
+        <Route path="couples-massage" element={<CouplesMassage />} />
+        <Route path="about" element={<About />} />
+        <Route path="booking" element={<Booking />} />
+        <Route path="contact" element={<Contact />} />
         <Route path="*" element={<Index />} />
       </Route>
     </Routes>
@@ -38,15 +37,15 @@ function App() {
 
 function Layout() {
   return (
-    <div >
+    <>
       <Nav />
-      <Heading />
-
-      <div className="container-fluid bg-white ">
+     
+      <div className="container-fluid">
+        <Heading />
         <Outlet />
-      </div>
-      <Footer />
-    </div>
+        </div>
+    <Footer />
+    </>
   );
 }
 

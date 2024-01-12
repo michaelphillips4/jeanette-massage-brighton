@@ -2,49 +2,52 @@ export default function CouplesMassage() {
   return (
     <div className="container">
       <h2 className="text-center display-5 pb-2">Couples Massage</h2>
+      <div className="row">
+        <div className="col-md-4">
+          <ul>
+            <li>
+              <p>
+                Experience a nurturing <b>treatment</b> and a deep sense of{" "}
+                <b>relaxation</b> and <b>well-being</b> together with a special
+                friend, relative or partner
+              </p>
+            </li>
+            <li>
+              <p>
+                A unique experience shared by 2 people, lying side-by side, in
+                the same room, at the same time
+              </p>
+            </li>
+            <li>
+              <p>
+                Performed by 2 <b>therapists</b>
+              </p>
+            </li>
+          </ul>
 
-      <img
-        src="Pictures/Couples/couples_3.jpg"
-        className="float-end shadow-lg p-3 m-5 bg-body-tertiary rounded"
-        title="jeanette and friend giving a couples massage"
-        alt="jeanette and friend giving a couples massage"
-        id="couples"
-      />
-
-      <ul className="">
-        <li>
           <p>
-            experience a nurturing <b>treatment</b> and a deep sense of{" "}
-            <b>relaxation</b> and <b>well-being</b> together with a special
-            friend, relative or partner
-          </p>
-        </li>
-        <li>
-          <p>
-            chose from either an <b>oiled table treatment</b> or from a{" "}
-            <b>thai yoga massage</b> on the futon, wearing comfortable loose
-            clothing
-          </p>
-        </li>
-        <li>
-          <p>
-            a unique experience shared by 2 people, lying side-by side, in the
-            same room, at the same time
-          </p>
-        </li>
-        <li>
-          <p>
-            performed by 2 <b>therapists</b>
-            
-            <blockquote className="pt-5">
-              <i>request:</i>
+            <b>
+              <i>Request:</i>
               <br />
-              please book in advance ( &amp; bring loose clothing for a thai
-              yoga treatment)
-            </blockquote>
+              Please book in advance
+            </b>
           </p>
-        </li>
-      </ul>
+        </div>
+        <div className="col-md-8 text-center ">
+          <img
+            src="Pictures/Couples/couples.jpeg"
+            className="img-flex w-75 rounded "
+            title="jeanette and friend giving a couples massage"
+            alt="jeanette and friend giving a couples massage"
+            id="couples"
+          />
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
