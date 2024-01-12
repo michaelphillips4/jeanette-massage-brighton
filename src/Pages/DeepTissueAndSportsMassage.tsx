@@ -2,7 +2,9 @@ export default function DeepTissueAndSportsMassage() {
   return (
     <>
       <div className="container">
-        <h1 className="text-center display-5 pb-2">Deep Tissue and Sports Massage</h1>
+        <h1 className="text-center display-5 pb-2">
+          Deep Tissue and Sports Massage
+        </h1>
 
         <img
           src="Pictures/Sports_Massage1.jpg"
@@ -71,10 +73,6 @@ export default function DeepTissueAndSportsMassage() {
           powerful treatment.
         </p>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
     </>
   );
 }

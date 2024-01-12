@@ -36,10 +36,7 @@ export default function Index() {
               </Link>
             </li>
             <li>
-              <Link
-                to="deep-tissue-and-sports-massage"
-                className="link-dark"
-              >
+              <Link to="deep-tissue-and-sports-massage" className="link-dark">
                 Deep tissue/Sports massage
               </Link>
             </li>
@@ -54,10 +51,7 @@ export default function Index() {
               </Link>
             </li>
             <li>
-              <a
-                href="deep-tissue-and-sports-massage"
-                className="link-dark"
-              >
+              <a href="deep-tissue-and-sports-massage" className="link-dark">
                 Therapeutic/Swedish massage
               </a>
             </li>
@@ -82,8 +76,11 @@ export default function Index() {
             preferable.
             <br />
             Jeanette is available for appointments at venues in both Brighton
-            and Hove see <Link to="contact" className="link-dark">contact page</Link> for details.
-            you can contact jeanette on:07932-568566 or at
+            and Hove see{" "}
+            <Link to="contact" className="link-dark">
+              contact page
+            </Link>{" "}
+            for details. you can contact jeanette on:07932-568566 or at
             jenmahoney13@hotmail.com
           </p>
         </div>
@@ -98,10 +95,6 @@ export default function Index() {
           />
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
     </>
   );
 }

@@ -23,7 +23,7 @@ export default function Nav() {
   const showValentinesDayMenuItem = nowDate >= start && nowDate <= end;
   console.log(Links);
   if (!showValentinesDayMenuItem) {
-  // Links = Links.filter((e) => e.Path !== "valentines");
+    Links = Links.filter((e) => e.Path !== "valentines");
   }
 
   return (

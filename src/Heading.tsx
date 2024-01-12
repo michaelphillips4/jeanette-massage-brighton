@@ -1,6 +1,6 @@
 function Heading() {
   return (
-    <div className="row text-center heading-lozenge ">
+    <div className="row text-center heading-lozenge mb-2 ">
       <div className="col-md-3  d-none d-md-block">
         <img src="logo.png" className="img-fluid pt-5" alt="logo" />
       </div>
