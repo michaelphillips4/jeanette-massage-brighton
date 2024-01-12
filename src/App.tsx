@@ -12,6 +12,7 @@ import Booking from "./Pages/Booking";
 import Contact from "./Pages/Contact";
 import Footer from "./Footer";
 import "./App.css";
+import ValentinesCouples from "./Pages/ValentinesCouples";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           path="deep-tissue-and-sports-massage"
           element={<DeepTissueAndSportsMassage />}
         />
+        <Route path="valentines" element={<ValentinesCouples />} />
         <Route path="thai-yoga-massage" element={<ThaiYogaMassage />} />
         <Route path="pregnancy-massage" element={<PregnancyMassage />} />
         <Route path="chair-massage" element={<ChairMassage />} />

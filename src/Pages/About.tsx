@@ -19,15 +19,15 @@ export default function About() {
         <h2 className="display-5 pb-2">About Jeanette</h2>
         <div className="">
             <b className="">Jeanette</b> started her career in the health &amp; fitness industry managing an independent health club in north london where she also taught aerobics &amp;
-            circuit classes... during this time she began her massage studies &amp; after qualifying initially in <b className="sp loudtext cursive">swedish massage</b>
-            she realised her passion for this subject &amp; decided to pursue a full-time massage path &amp;
+            circuit classes... during this time she began her massage studies &amp; after qualifying initially in <b>swedish massage </b>
+            she realized her passion for this subject &amp; decided to pursue a full-time massage path &amp;
             so continued her studies in <b className="">sports, chair &amp; pregnancy massage</b>
             <p>
-                In 2002, <b className="">jeanette</b> travelled to thailand for the first time & experienced her first ashtanga yoga retreat, inspiring her to folllow a dedicated yoga path,
-                she also discovered her passion for traditional <b className="sp loudtext cursive">thai yoga massage</b>, which motivated her to return to thailand several times to study with the sunshine network school of thai massage in chang mai, north thailand...
+                In 2002, <b className="">jeanette</b> traveled to thailand for the first time & experienced her first ashtanga yoga retreat, inspiring her to follow a dedicated yoga path,
+                she also discovered her passion for traditional <b>thai yoga massage</b>, which motivated her to return to thailand several times to study with the sunshine network school of thai massage in chang mai, north thailand...
             </p>
             <p>
-                Today jeanette continues to further her thai &amp; general <b className="sp loudtext cursive">massage</b> knowledge studying in the uk, thailand &amp; europe.
+                Today jeanette continues to further her thai &amp; general <b>massage</b> knowledge studying in the uk, thailand &amp; europe.
             </p>
         </div>
     </div>
@@ -87,8 +87,7 @@ export default function About() {
 </div>
 <br />
 <br />
-<br />
-<br />
+
 </div>
 
   );

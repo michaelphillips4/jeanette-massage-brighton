@@ -1,17 +1,12 @@
 export default function Footer() {
   return (<>
   <br />
- {/*  <img
-              src="logo.png"
-              className="mt-5"
-              alt="logo"
-            /> */}
-    <footer className="text-center footer mt-auto navbar-dark bg-dark">
+     <footer className="text-center footer mt-auto navbar-dark bg-dark">
       <div>
         <b>Jeanette Mahoney</b>
-        <br />
+        &nbsp; &nbsp; &nbsp; 
         07932-568566
-        <br />
+       &nbsp; &nbsp; &nbsp; 
         jenmahoney13@hotmail.com
       </div>
     </footer>
