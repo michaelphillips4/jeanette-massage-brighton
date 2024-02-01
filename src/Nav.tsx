@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { Link } from "react-router-dom";
 
 let Links: { Name: string; Path: string }[] = [
@@ -15,14 +16,24 @@ let Links: { Name: string; Path: string }[] = [
   { Name: "Bookings", Path: "booking" },
 ];
 
-export default function Nav() {
+const showValentinesDayMenuItem = () => {
   const nowDate = new Date();
   const year = nowDate.getFullYear();
   const start = new Date(year, 0, 20); // start on the yyyy Jan 20th
   const end = new Date(year, 1, 15); // end on the yyyy feb 15th
-  const showValentinesDayMenuItem = nowDate >= start && nowDate <= end;
-  console.log(Links);
-  if (!showValentinesDayMenuItem) {
+  return nowDate >= start && nowDate <= end;
+};
+
+export default function Nav() {
+  const menuRef = useRef<HTMLButtonElement>(null);
+
+  const closeMenu = () => {
+    if (menuRef.current?.offsetParent !== null) {
+      menuRef.current?.click();
+    }
+  };
+
+  if (!showValentinesDayMenuItem()) {
     Links = Links.filter((e) => e.Path !== "valentines");
   }
 
@@ -34,7 +45,7 @@ export default function Nav() {
       >
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            Jeanette Mahoney{" "}
+            Jeanette Mahoney
           </Link>
           <button
             className="navbar-toggler"
@@ -44,14 +55,17 @@ export default function Nav() {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            ref={menuRef}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            className="collapse navbar-collapse"
+            id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               {Links.map((l) => (
                 <li className="nav-item" key={l.Name}>
-                  <Link to={l.Path} className="nav-link">
+                  <Link to={l.Path} className="nav-link" onClick={closeMenu}>
                     {l.Name}
                   </Link>
                 </li>
