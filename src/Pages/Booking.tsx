@@ -41,7 +41,9 @@ export default function Booking() {
         Prices and length of treatment times may vary slightly form venue to
         venue. Please confirm these details when booking your appointment.
         Please see <Link to="/contact">Contact page</Link> for venue details
-      </p>
+      <br /><br /></p>
+      
     </div>
+    
   );
 }
