@@ -45,7 +45,7 @@ export default function Nav() {
       >
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            Jeanette Mahoney
+           <span className="d-none d-md-block">Jeanette Mahoney</span> 
           </Link>
           <button
             className="navbar-toggler"
