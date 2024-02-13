@@ -1,7 +1,9 @@
+import HeaderTitle from "../HeaderTitle";
+
 export default function CouplesMassage() {
   return (
     <div className="container">
-      <h2 className="text-center display-5 pb-2">Couples Massage</h2>
+      <HeaderTitle>Couples Massage</HeaderTitle>
       <div className="row">
         <div className="col-md-4">
           <ul>
@@ -43,7 +45,7 @@ export default function CouplesMassage() {
           />
         </div>
       </div>
-      
+      <br /><br />
     </div>
   );
 }

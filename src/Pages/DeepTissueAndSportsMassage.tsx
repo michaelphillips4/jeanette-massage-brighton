@@ -1,10 +1,12 @@
+import HeaderTitle from "../HeaderTitle";
+
 export default function DeepTissueAndSportsMassage() {
   return (
     <>
       <div className="container">
-        <h1 className="text-center display-5 pb-2">
+        <HeaderTitle>
           Deep Tissue and Sports Massage
-        </h1>
+        </HeaderTitle>
 
         <img
           src="Pictures/Sports_Massage1.jpg"
@@ -20,7 +22,7 @@ export default function DeepTissueAndSportsMassage() {
 
         <br />
 
-        <ul className="">
+        <ul>
           <li>
             <p>
               A strong, powerful, deep treatment which releases areas of chronic
@@ -73,6 +75,7 @@ export default function DeepTissueAndSportsMassage() {
           powerful treatment.
         </p>
       </div>
+      <br />
     </>
   );
 }

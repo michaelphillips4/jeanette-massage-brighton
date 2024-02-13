@@ -1,3 +1,5 @@
+import HeaderTitle from "../HeaderTitle"
+
 export default function About() {
   return (
 
@@ -16,7 +18,7 @@ export default function About() {
     </div>
 
     <div className="col-md-8 ">
-        <h2 className="display-5 pb-2">About Jeanette</h2>
+        <HeaderTitle>About Jeanette</HeaderTitle>
         <div className="">
             <b className="">Jeanette</b> started her career in the health &amp; fitness industry managing an independent health club in north london where she also taught aerobics &amp;
             circuit classes... during this time she began her massage studies &amp; after qualifying initially in <b>swedish massage </b>

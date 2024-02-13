@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import HeaderTitle from "../HeaderTitle";
 
 export default function Index() {
   return (
@@ -15,9 +16,9 @@ export default function Index() {
         </div>
 
         <div className="col-md-6">
-          <h2 className="text-center display-5 pb-2">
+          <HeaderTitle>
             Jeanette Mahoney Massage in Brighton and Hove
-          </h2>
+          </HeaderTitle>
 
           <p>
             Jeanette Mahoney is an experienced massage therapist working in

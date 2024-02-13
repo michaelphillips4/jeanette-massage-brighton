@@ -1,8 +1,10 @@
+import HeaderTitle from "../HeaderTitle";
+
 export default function ThaiYogaMassage() {
   return (
     <div className="container">
       <div className="row ">
-        <h1 className="text-center display-5 pb-2">Thai Yoga Massage</h1>
+      <HeaderTitle>Thai Yoga Massage</HeaderTitle>
         <div className="row">
           <div className="col-md-8 ">
             <h2>What is it?</h2><br />
@@ -55,7 +57,7 @@ export default function ThaiYogaMassage() {
                   </li>
                 </ul>
               </div>
-          <div className="col-md-4 ">
+          <div className="col-md-4 text-center">
             <div className="">
               The Cobra <br />
               <img
@@ -87,7 +89,7 @@ export default function ThaiYogaMassage() {
               </div>
             </div>
 
-            <div>
+            <div className="mt-4">
               <h2 className="sp cursive">Suitability:</h2>
               Adaptable for all body types regardless of size, age, flexibility
               or yoga experience. clients do not have to have any previous yoga
@@ -106,8 +108,8 @@ export default function ThaiYogaMassage() {
               <br />
             </div>
 
-            <div className="row">
-              <div className="col-md-4">
+            <div className="row text-center ">
+              <div className="col-md-4 ">
                  <div className="sp ">Hip Flexor Stretch</div>
                 <img
                   className="rounded img-fluid"
@@ -137,7 +139,8 @@ export default function ThaiYogaMassage() {
                 />
              
               </div>
-            </div>
+            </div>  <br /><br />
          </div>
+       
   );
 }

@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import HeaderTitle from "../HeaderTitle";
 
 export default function Booking() {
   return (
     <div className="container">
-      <h1 className="text-center display-5 pb-2">Appointments and Prices</h1>
+     <HeaderTitle>Appointments and Prices</HeaderTitle>
       <div className="row">
         <div className="col-md-6 p-2 p-md-5">
           <dl className="lead text-center ">

@@ -11,7 +11,7 @@ export default function Contact() {
           </div>
 
           <p>
-            <b className="">Private Practice:</b>
+            <b>Private Practice:</b>
             <br />
             <i>
               41 Tisbury rd

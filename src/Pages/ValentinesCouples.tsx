@@ -1,10 +1,11 @@
+import HeaderTitle from "../HeaderTitle";
+
 export default function ValentinesCouples() {
   return (
     <>
       <div className="container">
-        <h1 className="text-center display-5 pb-2">
-          St.Valentines Day Couples Massage{" "}
-        </h1>
+        <HeaderTitle>St.Valentines Day Couples Massage</HeaderTitle>
+       
         <div className="text-left">
           <p>
             
@@ -37,6 +38,7 @@ export default function ValentinesCouples() {
           </p>
         </div>
       </div>
+      <br />{/* <br /><br /> */}
     </>
   );
 }

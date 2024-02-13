@@ -1,8 +1,10 @@
+import HeaderTitle from "../HeaderTitle";
+
 export default function PregnancyMassage() {
   return (
     <div className="container">
       <div className="">
-        <h1 className="text-center display-5 pb-4">Pregnancy Massage</h1>
+        <HeaderTitle>Pregnancy Massage</HeaderTitle>
         <div className="row ">
           <div className="col-md-6">
             <ul className="">
@@ -34,7 +36,7 @@ export default function PregnancyMassage() {
           <div className="col-md-6 text-center">
             <img
               src="Pictures/Pregnancy/pregnancy3.jpg"
-              className="float-end rounded img-fluid "
+              className="float-md-end rounded img-fluid "
               title="pregnancy massage"
              />
           </div>

@@ -1,8 +1,10 @@
+import HeaderTitle from "../HeaderTitle";
+
 export default function ChairMassage() {
   return (
     <>
       <div className="container">
-        <h1 className="text-center display-5 pb-2">Chair Massage</h1>
+        <HeaderTitle>Chair Massage</HeaderTitle>
 
         <div className="row">
           <div className="col-md-9">
@@ -37,13 +39,10 @@ export default function ChairMassage() {
               </li>
             </ul>
           </div>
-
-          <br />
-          <br />
-
-          <div className="col-md-3">
+        
+          <div className="col-md-3 pt-5 ">
             <img
-              className="float-end  rounded img-fluid"
+              className="rounded img-fluid"
               src="Pictures/Chair_Massage/chair_massage_01.jpg"
               alt="chair massage"
               title="chair massage"
@@ -58,7 +57,7 @@ export default function ChairMassage() {
           </div>
         </div>
 
-        <div>
+        <div className="mt-4">
           <div className="float-start">
             <img
               className="rounded img-fluid me-3"
@@ -111,45 +110,41 @@ export default function ChairMassage() {
             massage please contact her on: 07932 568566
           </p>
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
+     
 
-        <div className="row">
+        <div className="row text-center mt-5">
           <div className="col-md-4">
             <img
-              className="rounded img-fluid"
+              className="rounded img-fluid mb-2"
               src="Pictures/Chair_Massage/chair_massage_04.jpg"
               alt="chair massage"
               title="chair massage"
             />
-            <br />
+           
           </div>
           <div className="col-md-4">
             <img
-              className="rounded img-fluid"
+              className="rounded img-fluid mb-2"
               src="Pictures/Chair_Massage/chair_massage_05.jpg"
               alt="chair massage"
               title="chair massage"
             />
-            <br />
+           
           </div>
           <div className="col-md-4">
             <img
-              className="rounded img-fluid"
+              className="rounded img-fluid mb-2"
               src="Pictures/Chair_Massage/chair_massage_06.jpg"
               alt="chair massage"
               title="chair massage"
             />
-            <br />
+            
           </div>
         </div>
       </div>
       <br />
       <br />
-      <br />
-      <br />
+      
     </>
   );
 }
