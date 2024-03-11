@@ -22,7 +22,7 @@ export default function Index() {
 
           <p>
             Jeanette Mahoney is an experienced massage therapist working in
-            brighton and hove. Jeanette has been practising massage since 2001
+            Brighton and Hove. Jeanette has been practising massage since 2001
             &amp; truly believes there is a particular style of massage which is
             effective and suitable for everyone. she now specializes in the
             following therapies
@@ -33,7 +33,7 @@ export default function Index() {
           <ul>
             <li>
               <Link to="thai-yoga-massage" className="link-dark">
-                Thai yoga massage
+                Thai Yoga massage
               </Link>
             </li>
             <li>
@@ -67,21 +67,22 @@ export default function Index() {
 
           <p>
             Jeanette adapts her treatments to cater for individual needs... if a
-            client desires a relaxing, nurturing treatment then a gentle swedish
-            massage would be given...alternatively a deep-tissue/sports
+            client desires a relaxing, nurturing treatment then a gentle Swedish
+            massage would be given...alternatively a Deep-tissue/Sports
             treatment would be more suitable for those requiring a more intense
             treatment... if a client feels they want to be stretched and
-            re-energized thai yoga massage may be more appropriate... or for a
+            re-energized Thai Yoga massage may be more appropriate... or for a
             shorter 30 minute treatment during the working day, focussing on the
-            upper body only, through clothing, a chair massage may be
+            upper body only, through clothing, a Chair massage may be
             preferable.
-            <br />
+            </p>
+            <p>
             Jeanette is available for appointments at venues in both Brighton
             and Hove see{" "}
             <Link to="contact" className="link-dark">
               contact page
             </Link>{" "}
-            for details. you can contact jeanette on:07932-568566 or at
+            for details. you can contact jeanette on <b>07932-568566</b> or at
             jenmahoney13@hotmail.com
           </p>
         </div>

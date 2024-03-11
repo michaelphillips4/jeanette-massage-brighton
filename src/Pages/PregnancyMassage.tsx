@@ -10,25 +10,22 @@ export default function PregnancyMassage() {
             <ul className="">
               <li>
                 <p>
-                  pregnancy enhances deep relaxation for both mums-to-be and
+                  Pregnancy enhances deep relaxation for both mums-to-be and
                   baby
                 </p>
               </li>
               <li>
-                <p>reduces swollen hands, feet and ankles</p>
+                <p>Reduces swollen hands, feet and ankles</p>
               </li>
               <li>
-                <p>alleviates lower back pain</p>
+                <p>Alleviates lower back pain</p>
               </li>
               <li>
-                <p>helps to reduce carpal tunnel syndrome</p>
+                <p>Helps to reduce carpal tunnel syndrome</p>
               </li>
               <li>
                 <p>
-                  performed in a side-lying position for maximum comfort either
-                  on the futon, thai yoga massage style,
-                  <br />
-                  through clothing or on the table using oils.
+                  Performed in a side-lying position for maximum comfort. 
                 </p>
               </li>
             </ul>

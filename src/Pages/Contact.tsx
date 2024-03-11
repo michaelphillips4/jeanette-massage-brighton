@@ -4,7 +4,7 @@ export default function Contact() {
       <div className="row">
         <div className="col-md-6">
           <div>
-            Jeanette is available for appointments in hove at the following
+            Jeanette is available for appointments in Hove at the following
             venues:
             <br />
             <br />
@@ -21,7 +21,7 @@ export default function Contact() {
               BN3 3BL
               <br />
             </i>
-            To book please phone jeanette directly <br />
+            To book please phone Jeanette directly <br />
             <b className="sp bigtext">&nbsp;07932-568566</b>
             <br />
             <b className="sp bigtext">Appointments at various times</b>
@@ -40,7 +40,7 @@ export default function Contact() {
               BN3 3YH
               <br />
             </i>
-            To book please phone jeanette directly <br />
+            To book please phone Jeanette directly <br />
             <b className="sp bigtext">&nbsp;07932-568566</b>
             <br />
             <b className="sp bigtext">Appointments at various times</b>

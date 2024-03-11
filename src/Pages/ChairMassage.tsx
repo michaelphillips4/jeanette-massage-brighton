@@ -11,32 +11,28 @@ export default function ChairMassage() {
             <h3 className="sp cursive">What is Chair Massage?</h3>
             Chair massage is a short treatment (usually 30 minutes) performed on
             a comfortable and fully adjustable ergonomically designed chair,
-            making it suitable for everyone. its carried out through clothing,
+            making it suitable for everyone. It's carried out through clothing,
             without the use of oils and targets specifically the muscles of the
             upper body:
             <ul className="sp">
               <li>
-                <i>back/shoulders/neck/head &amp; scalp/arms/hands</i>
+               <b><i>back/shoulders/neck/head &amp; scalp/arms/hands</i></b> 
               </li>
             </ul>
             <h3 className="sp cursive">Benefits:</h3>
             <ul>
-              <li>relieves </li>
+              <li>Relieves back, neck & shoulder tension</li>
+                  <li>Reduces headaches / migraines</li>
+                  <li>Reduces stress and anxiety</li>
+              
+              <li>Improves circulation &amp; lowers blood pressure</li>
+              <li>Promotes alert relaxation</li>
+              <li>Suitable and comfortable during pregnancy</li>
               <li>
-                <ul>
-                  <li>back pain</li>
-                  <li>neck/shoulder tension</li>
-                  <li>reduces headaches / migraines</li>
-                  <li>stress and anxiety</li>
-                </ul>
+                Helps to reduce repetitive strain injuries
+                e.g carpal tunnel syndrome
               </li>
-              <li>improves circulation &amp; lowers blood pressure</li>
-              <li>promotes alert relaxation</li>
-              <li>suitable and comfortable during pregnancy</li>
-              <li>
-                helps to reduce repetitive strain injuries
-                <br /> e.g carpal tunnel syndrome
-              </li>
+              <li>Enhances Well-Being</li>
             </ul>
           </div>
         
@@ -49,10 +45,10 @@ export default function ChairMassage() {
             />
             <h3 className="cursive ">Techniques Applied:</h3>
             <ul>
-              <li>acupressure</li>
-              <li>sports/deep tissue</li>
-              <li>stretching/ thai yoga</li>
-              <li>indian head massage</li>
+              <li>Acupressure</li>
+              <li>Sports/Deep tissue</li>
+              <li>Stretching/ Thai Yoga</li>
+              <li>Indian Head Massage</li>
             </ul>
           </div>
         </div>
@@ -64,25 +60,25 @@ export default function ChairMassage() {
               src="Pictures/Chair_Massage/chair_massage_02.jpg"
               alt="chair massage"
               title="chair massage"
-            />
+            /> <h3 className="sp cursive">On-site Massage</h3>
           </div>
 
-          <h3 className="sp cursive">On-site Massage</h3>
+         
           <p>
-            Jeanette also provides on-site massage, this is a mobile massage
-            therapy service where jeanette visits the workplace with her massage
+            Jeanette also provides On-site Massage, this is a mobile massage
+            therapy service where Jeanette visits the workplace with her massage
             chair... this type of massage is gaining popularity at an increasing
-            speed as companies/organisations are becoming more aware of the
+            speed as companies/organizations are becoming more aware of the
             importance of promoting the health and well-being of their
             employees.
           </p>
           <p>
-            During the last 20 years jeanette has carried out chair massage in
-            london &amp; brighton at a diverse range of co&acute;s/organisations
-            including law firms (eversheds, brown and wood), IT co&acute;s
-            (trace group), charities (nspcc,scope,sense,hiv aids
-            alliance),council offices (camden and islington) and primary schools
-            (emmanuel catholic school and Legal and General insurance).
+            During the last 20 years Jeanette has carried out Chair massage in
+            London &amp; Brighton at a diverse range of co&acute;s/organizations
+            including law firms (Eversheds, Brown and Wood), IT co&acute;s
+            (Trace Group), charities (NSPCC,Scope,Sense,HIV Aids
+            Alliance),council offices (Camden and Islington) and primary schools
+            (Emmanuel Catholic School) and Insurance companies (Legal & General).
           </p>
 
           <br />
@@ -94,20 +90,20 @@ export default function ChairMassage() {
             title="chair massage"
           />
 
-          <h3 className="sp cursive">Exhibitions Festivals</h3>
+          <h3 className="sp cursive">Well-Being Events</h3>
           <p>
-            Chair massage is also extremely popular at exhibitions/events, staff
+            Chair massage is also extremely popular at exhibitions, Well-being events, staff
             promotional health days, private functions and festivals.
           </p>
           <p>
-            Jeanette has worked at various exhibitions e.g at olympia for
-            hewlett packard and BT, at the grand hotel for the trace group and
+            Jeanette has worked at various exhibitions e.g at Olympia for
+            Hewlett Packard and BT, at the Grand Hotel for the Trace Group and
             has worked at numerous healing &amp; community festivals
-            (hove/crawley healing festival,brunswick festival)
+            (Hove/Crawley healing festival,Brunswick festival)
           </p>
           <p>
-            If you are interested in hiring jeanette for an event/or for on-site
-            massage please contact her on: 07932 568566
+            If you are interested in hiring Jeanette for an event/or for on-site
+            massage please contact her on: <b>07932 568566</b>
           </p>
         </div>
      

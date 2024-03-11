@@ -10,7 +10,7 @@ function Heading() {
         <h1 className="display-5 cursive  ">Jeanette Mahoney</h1>
         <h2 className="2display-6 cursive">Massage Therapy </h2>
 <span className="">
-        BA (HONS) LSSM LCM OSM thai (DIP) BTEC  (Sports Higher DIP)<br /></span>
+        BA (Hons) LSSM LCM OSM Thai (DIP) BTEC (Sports  & Remedial Higher DIP)<br /></span>
         
         <b className="">07932-568566</b>
       </div>
