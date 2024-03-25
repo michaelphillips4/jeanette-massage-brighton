@@ -9,8 +9,8 @@ function Heading() {
       <div className="col-md-6 text-center ">
         <h1 className="display-5 cursive  ">Jeanette Mahoney</h1>
         <h2 className="2display-6 cursive">Massage Therapy </h2>
-<span className="">
-        BA (Hons) LSSM LCM OSM Thai (DIP) BTEC (Sports  & Remedial Higher DIP)<br /></span>
+<span>
+        BA (Hons) LSSM LCM OSM Thai (DIP) <br />BTEC (Sports  & Remedial Higher DIP)<br /></span>
         
         <b className="">07932-568566</b>
       </div>

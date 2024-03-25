@@ -25,7 +25,7 @@ export default function PregnancyMassage() {
               </li>
               <li>
                 <p>
-                  Performed in a side-lying position for maximum comfort. 
+                  Performed in a side-lying position for maximum comfort 
                 </p>
               </li>
             </ul>

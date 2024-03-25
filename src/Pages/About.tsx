@@ -18,26 +18,26 @@ export default function About() {
           <HeaderTitle>About Jeanette</HeaderTitle>
           <p>
             <b>Jeanette</b> started her career in the health &amp; fitness
-            industry managing an independent health club in north london where
+            industry managing an independent health club in North London where
             she also taught aerobics &amp; circuit classes... during this time
             she began her massage studies &amp; after qualifying initially in 
-            <b>Swedish massage </b>
+            <b> Swedish massage </b>
             she realized her passion for this subject &amp; decided to pursue a
             full-time massage path &amp; so continued her studies in 
-            <b>Sports, Chair &amp; Pregnancy massage</b>
+            <b> Sports, Chair &amp; Pregnancy massage</b>
           </p>
 
           <p>
-            In 2002, <b>Jeanette</b> traveled to Thailand for the first time &
+            In 2002, <b>Jeanette</b> travelled to Thailand for the first time &
             experienced her first Ashtanga Yoga retreat, inspiring her to follow
             a dedicated yoga path, she also discovered her passion for
             traditional <b>Thai Yoga massage</b>, which motivated her to return
             to Thailand several times to study with the Sunshine Network School
-            of Thai massage in Chang Mai, north Thailand...
+            of Thai massage in Chang Mai, North Thailand...
           </p>
           <p>
-            Today Jeanette continues to further her Thai &amp; general
-            <b>massage</b> knowledge studying in the UK, Thailand &amp; Europe.
+          Today, Jeanette continues to further her general <b>massage</b> knowledge studying in the UK.
+
           </p>
         </div>
       </div>
@@ -48,19 +48,18 @@ export default function About() {
           <h2>Qualifications:</h2>
           <br />
           <ul className="lead">
-            <li>LSSM (London school of Sports massage) diploma</li>
+            <li>LSSM (London School of Sports massage) diploma</li>
             <li>BTEC Sports & Remedial higher Diploma</li>
             <li>LCM (London College of Massage) Diploma</li>
             <li>OCM (On-Site Academy of Massage) Diploma</li>
             <li>
-              Thai Yoga beginners, advanced, Thai-osteo certificates, <br />
-              &nbsp;&nbsp;&nbsp;the Sunshine Network School, Thailand & Metta
+              Thai Yoga beginners, advanced, Thai-osteo certificates, 
+              the Sunshine Network School, Thailand & Metta
               School, UK
             </li>
             <li>
               Pregnancy &amp; Baby massage certificate,
-              <br />
-              &nbsp;&nbsp;&nbsp;Jing massage School, Brighton.
+              Jing massage School, Brighton.
             </li>
             <li>BA (Hons) Leisure & Tourism Management Degree</li>
           </ul>

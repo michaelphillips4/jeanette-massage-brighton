@@ -39,12 +39,28 @@ export default function Contact() {
               <br />
               BN3 3YH
               <br />
+              <a href="https://www.vidaactive.club/">www.vidaactive.club</a>
+              <br />
             </i>
             To book please phone Jeanette directly <br />
             <b className="sp bigtext">&nbsp;07932-568566</b>
             <br />
             <b className="sp bigtext">Appointments at various times</b>
           </p>
+
+<hr />
+<p>
+Referrals made to:<br />
+<i>
+<b>Dr. Anne French<br />
+Coast Chiropractic clinic</b><br />
+30, The Drive,<br /> Lancing <br />BN15 8PS<br />
+<b>07908- 225037<br />
+<a href="https://www.coast-chiropractic.co.uk">www.coast-chiropractic.co.uk</a></b>
+</i>
+</p>
+
+
         </div>
 
         <br />
