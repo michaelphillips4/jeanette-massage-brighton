@@ -2,7 +2,7 @@ import HeaderTitle from "../HeaderTitle";
 
 export default function About() {
   return (
-    <div className="container">
+    <div>
       <div className="row">
         <div className="col-md-4 text-center ">
           <img

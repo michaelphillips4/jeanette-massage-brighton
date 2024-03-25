@@ -3,7 +3,7 @@ import HeaderTitle from "../HeaderTitle";
 export default function DeepTissueAndSportsMassage() {
   return (
     <>
-      <div className="container">
+      <div>
         <HeaderTitle>
           Deep Tissue and Sports Massage
         </HeaderTitle>

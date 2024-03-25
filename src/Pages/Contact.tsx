@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="container">
+    <div>
       <div className="row">
         <div className="col-md-6">
           <div>
@@ -48,19 +48,30 @@ export default function Contact() {
             <b className="sp bigtext">Appointments at various times</b>
           </p>
 
-<hr />
-<p>
-Referrals made to:<br />
-<i>
-<b>Dr. Anne French<br />
-Coast Chiropractic clinic</b><br />
-30, The Drive,<br /> Lancing <br />BN15 8PS<br />
-<b>07908- 225037<br />
-<a href="https://www.coast-chiropractic.co.uk">www.coast-chiropractic.co.uk</a></b>
-</i>
-</p>
-
-
+          <hr />
+          <p>
+            Referrals made to:
+            <br />
+            <i>
+              <b>
+                Dr. Anne French
+                <br />
+                Coast Chiropractic clinic
+              </b>
+              <br />
+              30, The Drive,
+              <br /> Lancing <br />
+              BN15 8PS
+              <br />
+              <b>
+                07908- 225037
+                <br />
+                <a href="https://www.coast-chiropractic.co.uk">
+                  www.coast-chiropractic.co.uk
+                </a>
+              </b>
+            </i>
+          </p>
         </div>
 
         <br />
@@ -82,9 +93,6 @@ Coast Chiropractic clinic</b><br />
           />
         </div>
       </div>
-      <br />
-<br /><br />
-<br />
     </div>
   );
 }

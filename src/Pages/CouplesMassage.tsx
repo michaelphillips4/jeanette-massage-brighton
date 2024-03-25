@@ -2,7 +2,7 @@ import HeaderTitle from "../HeaderTitle";
 
 export default function CouplesMassage() {
   return (
-    <div className="container">
+    <div>
       <HeaderTitle>Couples Massage</HeaderTitle>
       <div className="row">
         <div className="col-md-4">

@@ -3,7 +3,7 @@ import HeaderTitle from "../HeaderTitle";
 export default function ValentinesCouples() {
   return (
     <>
-      <div className="container">
+      <div>
         <HeaderTitle>St.Valentines Day Couples Massage</HeaderTitle>
        
         <div className="text-left">

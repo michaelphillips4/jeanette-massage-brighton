@@ -41,12 +41,13 @@ function Layout() {
   return (
     <>
       <Nav />
-     
       <div className="container-fluid">
         <Heading />
+      </div>
+      <div className="container">
         <Outlet />
-        </div>
-    <Footer />
+      </div>
+      <Footer />
     </>
   );
 }

@@ -2,7 +2,7 @@ import HeaderTitle from "../HeaderTitle";
 
 export default function PregnancyMassage() {
   return (
-    <div className="container">
+    <div>
       <div className="">
         <HeaderTitle>Pregnancy Massage</HeaderTitle>
         <div className="row ">
@@ -41,6 +41,7 @@ export default function PregnancyMassage() {
       </div>
       <br />
       <br />
+     
     </div>
   );
 }

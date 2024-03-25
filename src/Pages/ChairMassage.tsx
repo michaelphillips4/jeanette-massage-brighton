@@ -3,7 +3,7 @@ import HeaderTitle from "../HeaderTitle";
 export default function ChairMassage() {
   return (
     <>
-      <div className="container">
+      <div>
         <HeaderTitle>Chair Massage</HeaderTitle>
 
         <div className="row">

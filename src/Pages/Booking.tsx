@@ -3,7 +3,7 @@ import HeaderTitle from "../HeaderTitle";
 
 export default function Booking() {
   return (
-    <div className="container">
+    <div>
      <HeaderTitle>Appointments and Prices</HeaderTitle>
       <div className="row">
         <div className="col-md-6 p-2 p-md-5">
@@ -43,7 +43,8 @@ export default function Booking() {
         venue. Please confirm these details when booking your appointment.
         Please see <Link to="/contact">Contact page</Link> for venue details
       <br /><br /></p>
-      
+      <br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br />
     </div>
     
   );
