@@ -30,26 +30,6 @@ export default function Contact() {
           <hr />
 
           <p>
-            <b className="sp bigtext">Vida Active Health Health Club</b>
-            <br />
-            <i>
-              74, Blatchington Rd
-              <br />
-              Hove
-              <br />
-              BN3 3YH
-              <br />
-              <a href="https://www.vidaactive.club/">www.vidaactive.club</a>
-              <br />
-            </i>
-            To book please phone Jeanette directly <br />
-            <b className="sp bigtext">&nbsp;07932-568566</b>
-            <br />
-            <b className="sp bigtext">Appointments at various times</b>
-          </p>
-
-          <hr />
-          <p>
             Referrals made to:
             <br />
             <i>

@@ -93,7 +93,7 @@ export default function About() {
         <p>
           Jeanette enjoys practicing yoga, circuit training, receiving regular
           bodywork &amp; playing the guitar &amp; piano. She is part of a jazz
-          harmony vocal trio called the Zanetti's who perform in and around the
+          harmony vocal trio called the <a href="https://www.facebook.com/dejanelles/">The Dejànelles</a>.  Who perform in and around the
           Brighton and Hove area.
         </p>
       </div>

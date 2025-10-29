@@ -9,25 +9,25 @@ export default function Booking() {
         <div className="col-md-6 p-2 p-md-5">
           <dl className="lead text-center ">
             <dt>
-              30 minutes @ &pound;35
+              30 minutes @ &pound;38
               <br />
             </dt>
 
             <dt>
-              60 minutes @ &pound;58
+              60 minutes @ &pound;63
               <br />
             </dt>
 
             <dt>
-              90 minutes @ &pound;82
+              90 minutes @ &pound;90
               <br />
             </dt>
           </dl>
         </div>
         <div className="col-md-6 p-2 p-md-5">
           <dl className="lead text-center text-md-start">
-            <dt>Course of 3 x 30 minutes @ &pound;99</dt>
-            <dt> Course of 3 x 60 minutes @ &pound;162</dt>
+            <dt>Course of 3 x 30 minutes @ &pound;105</dt>
+            <dt> Course of 3 x 60 minutes @ &pound;175</dt>
           </dl>
 
           <ul className="text-start ps-md-3">
